@@ -271,7 +271,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "vSEP 2026"
+      "sch_revision": "v1.0"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -762,7 +762,7 @@
         "uuid": "bebc1e31-bf7c-43c8-989c-452db999bbf1"
       }
     ],
-    "used_designators": "U1-2,#PWR1-43,L1-2,D1-4,C1-17,SW1,R1-12,Y1,IC1-2,F1,Q1,FB1,J1-5,H1-4",
+    "used_designators": "U1-2,#PWR1-50,L1-2,D1-4,C1-17,STATUS1,SW1-3,R1-12,Y1,IC1-2,F1,Q1-4,FB1,J1-8,H1-4,TP1-10,LED1",
     "variants": []
   },
   "sheets": [
