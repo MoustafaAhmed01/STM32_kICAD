@@ -2,7 +2,7 @@
 	(version "E")
 	(design
 		(source "D:\\Workspace\\KiCad\\Project_2\\STM32F4_REV2\\STM32F4_REV2.kicad_sch")
-		(date "2026-10-05T16:05:38")
+		(date "2026-10-06T19:31:17")
 		(tool "Eeschema 10.0.6")
 		(sheet
 			(number "1")
@@ -1315,6 +1315,282 @@
 			)
 		)
 		(comp
+			(ref "FB2")
+			(value "BLM21PG221SN1D")
+			(footprint "BEADC2012X105N")
+			(datasheet "https://datasheet.datasheetarchive.com/originals/dk/DKDS-31/605570.pdf")
+			(description "Murata Ferrite Bead (Chip Ferrite Bead), 2 x 1.25 x 0.85mm")
+			(fields
+				(field
+					(name "Height") "1.05")
+				(field
+					(name "Mouser Part Number") "81-BLM21P221SG")
+				(field
+					(name "Mouser Price/Stock") "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/BLM21PG221SN1D?qs=N%2FLoXOA9PTJ4i6RHFrsqmw%3D%3D")
+				(field
+					(name "Manufacturer_Name") "Murata Electronics")
+				(field
+					(name "Manufacturer_Part_Number") "BLM21PG221SN1D")
+				(field
+					(name "Footprint") "BEADC2012X105N")
+				(field
+					(name "Datasheet") "https://datasheet.datasheetarchive.com/originals/dk/DKDS-31/605570.pdf")
+				(field
+					(name "Description") "Murata Ferrite Bead (Chip Ferrite Bead), 2 x 1.25 x 0.85mm")
+			)
+			(libsource
+				(lib "DownloadedLib")
+				(part "BLM21PG221SN1D")
+				(description "Murata Ferrite Bead (Chip Ferrite Bead), 2 x 1.25 x 0.85mm")
+			)
+			(property
+				(name "Height")
+				(value "1.05")
+			)
+			(property
+				(name "Mouser Part Number")
+				(value "81-BLM21P221SG")
+			)
+			(property
+				(name "Mouser Price/Stock")
+				(value "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/BLM21PG221SN1D?qs=N%2FLoXOA9PTJ4i6RHFrsqmw%3D%3D")
+			)
+			(property
+				(name "Manufacturer_Name")
+				(value "Murata Electronics")
+			)
+			(property
+				(name "Manufacturer_Part_Number")
+				(value "BLM21PG221SN1D")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "STM32F4_REV2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "7ecc95ec-c6f2-4f76-8cf9-28bc3c388699")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "FID1")
+			(value "Fiducial")
+			(footprint "Fiducial:Fiducial_1mm_Mask2mm")
+			(description "Fiducial Marker")
+			(fields
+				(field
+					(name "Footprint") "Fiducial:Fiducial_1mm_Mask2mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Fiducial Marker")
+			)
+			(libsource
+				(lib "Mechanical")
+				(part "Fiducial")
+				(description "Fiducial Marker")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "STM32F4_REV2.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(property
+				(name "ki_keywords")
+				(value "fiducial marker")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Fiducial*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "bd22c276-97d1-427a-b150-03988587c2e5")
+			(units
+				(unit
+					(name "A")
+					(pins)
+				)
+			)
+		)
+		(comp
+			(ref "FID2")
+			(value "Fiducial")
+			(footprint "Fiducial:Fiducial_1mm_Mask2mm")
+			(description "Fiducial Marker")
+			(fields
+				(field
+					(name "Footprint") "Fiducial:Fiducial_1mm_Mask2mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Fiducial Marker")
+			)
+			(libsource
+				(lib "Mechanical")
+				(part "Fiducial")
+				(description "Fiducial Marker")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "STM32F4_REV2.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(property
+				(name "ki_keywords")
+				(value "fiducial marker")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Fiducial*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "a45982b0-2997-49f3-b56c-6b55d2fd8f67")
+			(units
+				(unit
+					(name "A")
+					(pins)
+				)
+			)
+		)
+		(comp
+			(ref "FID3")
+			(value "Fiducial")
+			(footprint "Fiducial:Fiducial_1mm_Mask2mm")
+			(description "Fiducial Marker")
+			(fields
+				(field
+					(name "Footprint") "Fiducial:Fiducial_1mm_Mask2mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Fiducial Marker")
+			)
+			(libsource
+				(lib "Mechanical")
+				(part "Fiducial")
+				(description "Fiducial Marker")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "STM32F4_REV2.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(property
+				(name "ki_keywords")
+				(value "fiducial marker")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Fiducial*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "b15d3756-e563-4a62-b577-edf0718b626c")
+			(units
+				(unit
+					(name "A")
+					(pins)
+				)
+			)
+		)
+		(comp
+			(ref "FID4")
+			(value "Fiducial")
+			(footprint "Fiducial:Fiducial_1mm_Mask2mm")
+			(description "Fiducial Marker")
+			(fields
+				(field
+					(name "Footprint") "Fiducial:Fiducial_1mm_Mask2mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Fiducial Marker")
+			)
+			(libsource
+				(lib "Mechanical")
+				(part "Fiducial")
+				(description "Fiducial Marker")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "STM32F4_REV2.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(property
+				(name "ki_keywords")
+				(value "fiducial marker")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Fiducial*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "d2c9409b-f2aa-42c7-8597-5fc15f6d6895")
+			(units
+				(unit
+					(name "A")
+					(pins)
+				)
+			)
+		)
+		(comp
 			(ref "H1")
 			(value "MountingHole_Pad")
 			(footprint "MountingHole:MountingHole_4.3mm_M4_Pad_Via")
@@ -2117,60 +2393,6 @@
 				(tstamps "/")
 			)
 			(tstamps "307f34e0-3a97-45d3-b80d-5bfaee90f91c")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "L1")
-			(value "39n")
-			(footprint "Inductor_SMD:L_0805_2012Metric")
-			(description "Inductor, small symbol")
-			(fields
-				(field
-					(name "Footprint") "Inductor_SMD:L_0805_2012Metric")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "Inductor, small symbol")
-			)
-			(libsource
-				(lib "Device")
-				(part "L_Small")
-				(description "Inductor, small symbol")
-			)
-			(property
-				(name "Sheetname")
-				(value "Root")
-			)
-			(property
-				(name "Sheetfile")
-				(value "STM32F4_REV2.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "inductor choke coil reactor magnetic")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "Choke_* *Coil* Inductor_* L_*")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "4fb5c0f7-3ea0-48e6-92d9-1960f8570691")
 			(units
 				(unit
 					(name "A")
@@ -4472,43 +4694,6 @@
 		)
 		(libpart
 			(lib "Device")
-			(part "L_Small")
-			(description "Inductor, small symbol")
-			(footprints
-				(fp "Choke_*")
-				(fp "*Coil*")
-				(fp "Inductor_*")
-				(fp "L_*")
-			)
-			(fields
-				(field
-					(name "Reference") "L")
-				(field
-					(name "Value") "L_Small")
-				(field
-					(name "Footprint")
-				)
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "Inductor, small symbol")
-			)
-			(pins
-				(pin
-					(num "1")
-					(name "")
-					(type "passive")
-				)
-				(pin
-					(num "2")
-					(name "")
-					(type "passive")
-				)
-			)
-		)
-		(libpart
-			(lib "Device")
 			(part "Polyfuse_Small")
 			(description "Resettable fuse, polymeric positive temperature coefficient, small symbol")
 			(footprints
@@ -4655,6 +4840,46 @@
 				(pin
 					(num "4")
 					(name "COM_A")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "DownloadedLib")
+			(part "BLM21PG221SN1D")
+			(description "Murata Ferrite Bead (Chip Ferrite Bead), 2 x 1.25 x 0.85mm")
+			(docs "https://datasheet.datasheetarchive.com/originals/dk/DKDS-31/605570.pdf")
+			(fields
+				(field
+					(name "Reference") "FB")
+				(field
+					(name "Value") "BLM21PG221SN1D")
+				(field
+					(name "Footprint") "BEADC2012X105N")
+				(field
+					(name "Datasheet") "https://datasheet.datasheetarchive.com/originals/dk/DKDS-31/605570.pdf")
+				(field
+					(name "Description") "Murata Ferrite Bead (Chip Ferrite Bead), 2 x 1.25 x 0.85mm")
+				(field
+					(name "Height") "1.05")
+				(field
+					(name "Mouser Part Number") "81-BLM21P221SG")
+				(field
+					(name "Mouser Price/Stock") "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/BLM21PG221SN1D?qs=N%2FLoXOA9PTJ4i6RHFrsqmw%3D%3D")
+				(field
+					(name "Manufacturer_Name") "Murata Electronics")
+				(field
+					(name "Manufacturer_Part_Number") "BLM21PG221SN1D")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
 					(type "passive")
 				)
 			)
@@ -5104,6 +5329,28 @@
 		)
 		(libpart
 			(lib "Mechanical")
+			(part "Fiducial")
+			(description "Fiducial Marker")
+			(footprints
+				(fp "Fiducial*")
+			)
+			(fields
+				(field
+					(name "Reference") "FID")
+				(field
+					(name "Value") "Fiducial")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Fiducial Marker")
+			)
+		)
+		(libpart
+			(lib "Mechanical")
 			(part "MountingHole_Pad")
 			(description "Mounting Hole with connection")
 			(footprints
@@ -5384,6 +5631,12 @@
 				(pintype "passive")
 			)
 			(node
+				(ref "FB2")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
 				(ref "J2")
 				(pin "1")
 				(pinfunction "Pin_1_1")
@@ -5399,11 +5652,6 @@
 				(ref "J4")
 				(pin "1")
 				(pinfunction "Pin_1_1")
-				(pintype "passive")
-			)
-			(node
-				(ref "L1")
-				(pin "1")
 				(pintype "passive")
 			)
 			(node
@@ -5496,8 +5744,9 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "L1")
+				(ref "FB2")
 				(pin "2")
+				(pinfunction "2_2")
 				(pintype "passive")
 			)
 			(node
