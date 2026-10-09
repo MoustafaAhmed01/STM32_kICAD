@@ -732,6 +732,12 @@
           "label": "KLC_S4.1",
           "name": "KLC_S4.1",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "FAB",
+          "name": "FAB",
+          "show": false
         }
       ],
       "filter_string": "",

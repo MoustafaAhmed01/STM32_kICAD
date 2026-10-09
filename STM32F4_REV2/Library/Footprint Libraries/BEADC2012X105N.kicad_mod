@@ -1,30 +1,169 @@
-(module "BEADC2012X105N" (layer F.Cu)
-  (descr "0805-3")
-  (tags "Ferrite Bead")
-  (attr smd)
-  (fp_text reference FB** (at 0 0) (layer F.SilkS)
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_text user %R (at 0 0) (layer F.Fab)
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_text value "BEADC2012X105N" (at 0 0) (layer F.SilkS) hide
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_line (start -1.725 -1) (end 1.725 -1) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 1.725 -1) (end 1.725 1) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 1.725 1) (end -1.725 1) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -1.725 1) (end -1.725 -1) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -1 -0.625) (end 1 -0.625) (layer F.Fab) (width 0.1))
-  (fp_line (start 1 -0.625) (end 1 0.625) (layer F.Fab) (width 0.1))
-  (fp_line (start 1 0.625) (end -1 0.625) (layer F.Fab) (width 0.1))
-  (fp_line (start -1 0.625) (end -1 -0.625) (layer F.Fab) (width 0.1))
-  (fp_line (start 0 -0.525) (end 0 0.525) (layer F.SilkS) (width 0.2))
-  (pad 1 smd rect (at -0.9 0 0) (size 1.15 1.45) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at 0.9 0 0) (size 1.15 1.45) (layers F.Cu F.Paste F.Mask))
-  (model BLM21PG221SN1D.stp
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "BEADC2012X105N"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "0805-3")
+	(tags "Ferrite Bead")
+	(property "Reference" "FB**"
+		(at 0 -2.2 0)
+		(layer "F.SilkS")
+		(uuid "1894264e-c388-4bc7-b4a1-6a160b03e6f5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "BEADC2012X105N"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "4d522c45-f73e-4393-9a84-63ecde6e1fde")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2c8c4f90-f2c2-4079-ae66-0b21a529c0c1")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8b4c0674-67f0-447a-8476-1fdf3014d251")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start 0 -0.525)
+		(end 0 0.525)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0235bd3e-82de-48dd-90f9-6b68ce6be189")
+	)
+	(fp_line
+		(start -1.725 -1)
+		(end 1.725 -1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2baec580-791f-4e5f-b25e-b94b40c96340")
+	)
+	(fp_line
+		(start -1.725 1)
+		(end -1.725 -1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ebbc3b05-5e0f-42f2-b8b1-0815ee9f3cfe")
+	)
+	(fp_line
+		(start 1.725 -1)
+		(end 1.725 1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a84f8204-a561-4ed1-9abe-f8d1c5366be3")
+	)
+	(fp_line
+		(start 1.725 1)
+		(end -1.725 1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "da087a46-a94f-4264-bdba-c0e1b13d0849")
+	)
+	(fp_line
+		(start -1 -0.625)
+		(end 1 -0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2b548ee4-8c5b-4ae6-a5aa-fdee3514dca6")
+	)
+	(fp_line
+		(start -1 0.625)
+		(end -1 -0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f893c593-4301-4dfd-9635-9e45c2df314a")
+	)
+	(fp_line
+		(start 1 -0.625)
+		(end 1 0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f464930f-d9ef-429f-8a5f-01b8e255e71d")
+	)
+	(fp_line
+		(start 1 0.625)
+		(end -1 0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a7773d9f-6e89-4ee9-bfab-7dd704af2035")
+	)
+	(pad "1" smd rect
+		(at -0.9 0)
+		(size 1.15 1.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4fb8ccde-3a23-4def-ad74-0100de3cf81c")
+	)
+	(pad "2" smd rect
+		(at 0.9 0)
+		(size 1.15 1.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "db195deb-8457-4928-a0e7-782100363b98")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Library/3D Models/Ferrite Bead/BLM21PG221SN1D.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
