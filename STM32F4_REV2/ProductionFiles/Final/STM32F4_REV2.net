@@ -1,8 +1,8 @@
 (export
 	(version "E")
 	(design
-		(source "D:\\WorkSpace\\KiCAD\\STM32_kICAD\\STM32F4_REV2\\STM32F4_REV2.kicad_sch")
-		(date "2026-10-09T19:27:23")
+		(source "D:\\Workspace\\KiCad\\Project_2\\STM32F4_REV2\\STM32F4_REV2.kicad_sch")
+		(date "2026-10-11T12:37:02")
 		(tool "Eeschema 10.0.6")
 		(sheet
 			(number "1")
@@ -71,6 +71,9 @@
 					(name "KLC_S4.1")
 				)
 				(field
+					(name "FAB")
+				)
+				(field
 					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
@@ -97,6 +100,10 @@
 			)
 			(property
 				(name "KLC_S4.1")
+				(value "")
+			)
+			(property
+				(name "FAB")
 				(value "")
 			)
 			(property
@@ -151,6 +158,9 @@
 					(name "KLC_S4.1")
 				)
 				(field
+					(name "FAB")
+				)
+				(field
 					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
@@ -177,6 +187,10 @@
 			)
 			(property
 				(name "KLC_S4.1")
+				(value "")
+			)
+			(property
+				(name "FAB")
 				(value "")
 			)
 			(property
@@ -231,6 +245,9 @@
 					(name "KLC_S4.1")
 				)
 				(field
+					(name "FAB")
+				)
+				(field
 					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
@@ -257,6 +274,10 @@
 			)
 			(property
 				(name "KLC_S4.1")
+				(value "")
+			)
+			(property
+				(name "FAB")
 				(value "")
 			)
 			(property
@@ -311,6 +332,9 @@
 					(name "KLC_S4.1")
 				)
 				(field
+					(name "FAB")
+				)
+				(field
 					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
@@ -337,6 +361,10 @@
 			)
 			(property
 				(name "KLC_S4.1")
+				(value "")
+			)
+			(property
+				(name "FAB")
 				(value "")
 			)
 			(property
@@ -391,6 +419,9 @@
 					(name "KLC_S4.1")
 				)
 				(field
+					(name "FAB")
+				)
+				(field
 					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
@@ -417,6 +448,10 @@
 			)
 			(property
 				(name "KLC_S4.1")
+				(value "")
+			)
+			(property
+				(name "FAB")
 				(value "")
 			)
 			(property
@@ -471,6 +506,9 @@
 					(name "KLC_S4.1")
 				)
 				(field
+					(name "FAB")
+				)
+				(field
 					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
@@ -497,6 +535,10 @@
 			)
 			(property
 				(name "KLC_S4.1")
+				(value "")
+			)
+			(property
+				(name "FAB")
 				(value "")
 			)
 			(property
@@ -551,6 +593,9 @@
 					(name "KLC_S4.1")
 				)
 				(field
+					(name "FAB")
+				)
+				(field
 					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
@@ -577,6 +622,10 @@
 			)
 			(property
 				(name "KLC_S4.1")
+				(value "")
+			)
+			(property
+				(name "FAB")
 				(value "")
 			)
 			(property
@@ -631,6 +680,9 @@
 					(name "KLC_S4.1")
 				)
 				(field
+					(name "FAB")
+				)
+				(field
 					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
@@ -657,6 +709,10 @@
 			)
 			(property
 				(name "KLC_S4.1")
+				(value "")
+			)
+			(property
+				(name "FAB")
 				(value "")
 			)
 			(property
@@ -711,6 +767,9 @@
 					(name "KLC_S4.1")
 				)
 				(field
+					(name "FAB")
+				)
+				(field
 					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
@@ -737,6 +796,10 @@
 			)
 			(property
 				(name "KLC_S4.1")
+				(value "")
+			)
+			(property
+				(name "FAB")
 				(value "")
 			)
 			(property
@@ -791,6 +854,9 @@
 					(name "KLC_S4.1")
 				)
 				(field
+					(name "FAB")
+				)
+				(field
 					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
@@ -817,6 +883,10 @@
 			)
 			(property
 				(name "KLC_S4.1")
+				(value "")
+			)
+			(property
+				(name "FAB")
 				(value "")
 			)
 			(property
@@ -856,19 +926,22 @@
 		)
 		(comp
 			(ref "C11")
-			(value "12p")
+			(value "18p")
 			(footprint "Capacitor_SMD:C_0805_2012Metric")
 			(description "Unpolarized capacitor, small symbol")
 			(fields
 				(field
-					(name "#DigiKey") "399-17427-1-ND")
+					(name "#DigiKey") "399-C0805C180J5GACTUCT-ND")
 				(field
-					(name "#MFR") "C0805C120J3GACTU")
+					(name "#MFR") "C0805C180J5GACTU")
 				(field
 					(name "KLC_S3.3")
 				)
 				(field
 					(name "KLC_S4.1")
+				)
+				(field
+					(name "FAB")
 				)
 				(field
 					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
@@ -885,11 +958,11 @@
 			)
 			(property
 				(name "#DigiKey")
-				(value "399-17427-1-ND")
+				(value "399-C0805C180J5GACTUCT-ND")
 			)
 			(property
 				(name "#MFR")
-				(value "C0805C120J3GACTU")
+				(value "C0805C180J5GACTU")
 			)
 			(property
 				(name "KLC_S3.3")
@@ -897,6 +970,10 @@
 			)
 			(property
 				(name "KLC_S4.1")
+				(value "")
+			)
+			(property
+				(name "FAB")
 				(value "")
 			)
 			(property
@@ -936,19 +1013,22 @@
 		)
 		(comp
 			(ref "C12")
-			(value "12p")
+			(value "18p")
 			(footprint "Capacitor_SMD:C_0805_2012Metric")
 			(description "Unpolarized capacitor, small symbol")
 			(fields
 				(field
-					(name "#DigiKey") "399-17427-1-ND")
+					(name "#DigiKey") "399-C0805C180J5GACTUCT-ND")
 				(field
-					(name "#MFR") "C0805C120J3GACTU")
+					(name "#MFR") "C0805C180J5GACTU")
 				(field
 					(name "KLC_S3.3")
 				)
 				(field
 					(name "KLC_S4.1")
+				)
+				(field
+					(name "FAB")
 				)
 				(field
 					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
@@ -965,11 +1045,11 @@
 			)
 			(property
 				(name "#DigiKey")
-				(value "399-17427-1-ND")
+				(value "399-C0805C180J5GACTUCT-ND")
 			)
 			(property
 				(name "#MFR")
-				(value "C0805C120J3GACTU")
+				(value "C0805C180J5GACTU")
 			)
 			(property
 				(name "KLC_S3.3")
@@ -977,6 +1057,10 @@
 			)
 			(property
 				(name "KLC_S4.1")
+				(value "")
+			)
+			(property
+				(name "FAB")
 				(value "")
 			)
 			(property
@@ -1031,6 +1115,9 @@
 					(name "KLC_S4.1")
 				)
 				(field
+					(name "FAB")
+				)
+				(field
 					(name "Footprint") "Capacitor_SMD:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
@@ -1057,6 +1144,10 @@
 			)
 			(property
 				(name "KLC_S4.1")
+				(value "")
+			)
+			(property
+				(name "FAB")
 				(value "")
 			)
 			(property
@@ -1111,6 +1202,9 @@
 					(name "KLC_S4.1")
 				)
 				(field
+					(name "FAB")
+				)
+				(field
 					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
@@ -1137,6 +1231,10 @@
 			)
 			(property
 				(name "KLC_S4.1")
+				(value "")
+			)
+			(property
+				(name "FAB")
 				(value "")
 			)
 			(property
@@ -1191,6 +1289,9 @@
 					(name "KLC_S4.1")
 				)
 				(field
+					(name "FAB")
+				)
+				(field
 					(name "Footprint") "Capacitor_SMD:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
@@ -1217,6 +1318,10 @@
 			)
 			(property
 				(name "KLC_S4.1")
+				(value "")
+			)
+			(property
+				(name "FAB")
 				(value "")
 			)
 			(property
@@ -1271,6 +1376,9 @@
 					(name "KLC_S4.1")
 				)
 				(field
+					(name "FAB")
+				)
+				(field
 					(name "Footprint") "Capacitor_SMD:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
@@ -1297,6 +1405,10 @@
 			)
 			(property
 				(name "KLC_S4.1")
+				(value "")
+			)
+			(property
+				(name "FAB")
 				(value "")
 			)
 			(property
@@ -1351,6 +1463,9 @@
 					(name "KLC_S4.1")
 				)
 				(field
+					(name "FAB")
+				)
+				(field
 					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
@@ -1377,6 +1492,10 @@
 			)
 			(property
 				(name "KLC_S4.1")
+				(value "")
+			)
+			(property
+				(name "FAB")
 				(value "")
 			)
 			(property
@@ -1434,6 +1553,9 @@
 					(name "KLC_S4.1")
 				)
 				(field
+					(name "FAB")
+				)
+				(field
 					(name "Footprint") "LED_SMD:LED_0805_2012Metric")
 				(field
 					(name "Datasheet") "https://www.qt-brightek.com/datasheet/QBLP631-IB5-2897.pdf")
@@ -1463,6 +1585,10 @@
 			)
 			(property
 				(name "KLC_S4.1")
+				(value "")
+			)
+			(property
+				(name "FAB")
 				(value "")
 			)
 			(property
@@ -1520,6 +1646,9 @@
 					(name "KLC_S4.1")
 				)
 				(field
+					(name "FAB")
+				)
+				(field
 					(name "Footprint") "LED_SMD:LED_0805_2012Metric")
 				(field
 					(name "Datasheet") "https://www.qt-brightek.com/datasheet/QBLP631-IB5-2897.pdf")
@@ -1549,6 +1678,10 @@
 			)
 			(property
 				(name "KLC_S4.1")
+				(value "")
+			)
+			(property
+				(name "FAB")
 				(value "")
 			)
 			(property
@@ -1608,6 +1741,9 @@
 				(field
 					(name "#MFR") "B230AF-13")
 				(field
+					(name "FAB")
+				)
+				(field
 					(name "Footprint") "M_Design_Lib:SODFL5226X110N")
 				(field
 					(name "Datasheet") "https://www.diodes.com/assets/Datasheets/B220AFB230AFB240AFB245AF.pdf")
@@ -1646,6 +1782,10 @@
 			(property
 				(name "#MFR")
 				(value "B230AF-13")
+			)
+			(property
+				(name "FAB")
+				(value "")
 			)
 			(property
 				(name "Sheetname")
@@ -1696,6 +1836,9 @@
 				(field
 					(name "#MFR") "B230AF-13")
 				(field
+					(name "FAB")
+				)
+				(field
 					(name "Footprint") "M_Design_Lib:SODFL5226X110N")
 				(field
 					(name "Datasheet") "https://www.diodes.com/assets/Datasheets/B220AFB230AFB240AFB245AF.pdf")
@@ -1734,6 +1877,10 @@
 			(property
 				(name "#MFR")
 				(value "B230AF-13")
+			)
+			(property
+				(name "FAB")
+				(value "")
 			)
 			(property
 				(name "Sheetname")
@@ -1780,6 +1927,9 @@
 					(name "KLC_S4.1")
 				)
 				(field
+					(name "FAB")
+				)
+				(field
 					(name "Footprint") "Fuse:Fuse_1206_3216Metric")
 				(field
 					(name "Datasheet") "https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-cc12h-high-i2t-chip-fuses-data-sheet.pdf")
@@ -1805,6 +1955,10 @@
 			)
 			(property
 				(name "KLC_S4.1")
+				(value "")
+			)
+			(property
+				(name "FAB")
 				(value "")
 			)
 			(property
@@ -1860,6 +2014,9 @@
 					(name "KLC_S4.1")
 				)
 				(field
+					(name "FAB")
+				)
+				(field
 					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
 				(field
 					(name "Datasheet") "https://product.tdk.com/system/files/dam/doc/product/emc/emc/beads/catalog/beads_commercial_power_mpz2012_en.pdf")
@@ -1885,6 +2042,10 @@
 			)
 			(property
 				(name "KLC_S4.1")
+				(value "")
+			)
+			(property
+				(name "FAB")
 				(value "")
 			)
 			(property
@@ -1950,6 +2111,9 @@
 					(name "KLC_S4.1")
 				)
 				(field
+					(name "FAB")
+				)
+				(field
 					(name "Footprint") "M_Design_Lib:BEADC2012X105N")
 				(field
 					(name "Datasheet") "https://datasheet.datasheetarchive.com/originals/dk/DKDS-31/605570.pdf")
@@ -1998,6 +2162,10 @@
 				(value "")
 			)
 			(property
+				(name "FAB")
+				(value "")
+			)
+			(property
 				(name "Sheetname")
 				(value "Root")
 			)
@@ -2043,6 +2211,9 @@
 					(name "KLC_S4.1")
 				)
 				(field
+					(name "FAB")
+				)
+				(field
 					(name "Footprint") "Fiducial:Fiducial_1mm_Mask2mm")
 				(field
 					(name "Datasheet")
@@ -2069,6 +2240,10 @@
 			)
 			(property
 				(name "KLC_S4.1")
+				(value "")
+			)
+			(property
+				(name "FAB")
 				(value "")
 			)
 			(property
@@ -2121,6 +2296,9 @@
 					(name "KLC_S4.1")
 				)
 				(field
+					(name "FAB")
+				)
+				(field
 					(name "Footprint") "Fiducial:Fiducial_1mm_Mask2mm")
 				(field
 					(name "Datasheet")
@@ -2147,6 +2325,10 @@
 			)
 			(property
 				(name "KLC_S4.1")
+				(value "")
+			)
+			(property
+				(name "FAB")
 				(value "")
 			)
 			(property
@@ -2199,6 +2381,9 @@
 					(name "KLC_S4.1")
 				)
 				(field
+					(name "FAB")
+				)
+				(field
 					(name "Footprint") "Fiducial:Fiducial_1mm_Mask2mm")
 				(field
 					(name "Datasheet")
@@ -2225,6 +2410,10 @@
 			)
 			(property
 				(name "KLC_S4.1")
+				(value "")
+			)
+			(property
+				(name "FAB")
 				(value "")
 			)
 			(property
@@ -2277,6 +2466,9 @@
 					(name "KLC_S4.1")
 				)
 				(field
+					(name "FAB")
+				)
+				(field
 					(name "Footprint") "Fiducial:Fiducial_1mm_Mask2mm")
 				(field
 					(name "Datasheet")
@@ -2303,6 +2495,10 @@
 			)
 			(property
 				(name "KLC_S4.1")
+				(value "")
+			)
+			(property
+				(name "FAB")
 				(value "")
 			)
 			(property
@@ -2355,6 +2551,9 @@
 					(name "KLC_S4.1")
 				)
 				(field
+					(name "FAB")
+				)
+				(field
 					(name "Footprint") "MountingHole:MountingHole_4.3mm_M4_Pad_Via")
 				(field
 					(name "Datasheet")
@@ -2381,6 +2580,10 @@
 			)
 			(property
 				(name "KLC_S4.1")
+				(value "")
+			)
+			(property
+				(name "FAB")
 				(value "")
 			)
 			(property
@@ -2437,6 +2640,9 @@
 					(name "KLC_S4.1")
 				)
 				(field
+					(name "FAB")
+				)
+				(field
 					(name "Footprint") "MountingHole:MountingHole_4.3mm_M4_Pad_Via")
 				(field
 					(name "Datasheet")
@@ -2463,6 +2669,10 @@
 			)
 			(property
 				(name "KLC_S4.1")
+				(value "")
+			)
+			(property
+				(name "FAB")
 				(value "")
 			)
 			(property
@@ -2519,6 +2729,9 @@
 					(name "KLC_S4.1")
 				)
 				(field
+					(name "FAB")
+				)
+				(field
 					(name "Footprint") "MountingHole:MountingHole_4.3mm_M4_Pad_Via")
 				(field
 					(name "Datasheet")
@@ -2545,6 +2758,10 @@
 			)
 			(property
 				(name "KLC_S4.1")
+				(value "")
+			)
+			(property
+				(name "FAB")
 				(value "")
 			)
 			(property
@@ -2601,6 +2818,9 @@
 					(name "KLC_S4.1")
 				)
 				(field
+					(name "FAB")
+				)
+				(field
 					(name "Footprint") "MountingHole:MountingHole_4.3mm_M4_Pad_Via")
 				(field
 					(name "Datasheet")
@@ -2627,6 +2847,10 @@
 			)
 			(property
 				(name "KLC_S4.1")
+				(value "")
+			)
+			(property
+				(name "FAB")
 				(value "")
 			)
 			(property
@@ -2692,6 +2916,9 @@
 					(name "KLC_S4.1")
 				)
 				(field
+					(name "FAB")
+				)
+				(field
 					(name "Footprint") "M_Design_Lib:MP2359DJ-LF-Z")
 				(field
 					(name "Datasheet") "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/89d986a89c59d1844ef77b6f65b8a4d2.pdf")
@@ -2737,6 +2964,10 @@
 			)
 			(property
 				(name "KLC_S4.1")
+				(value "")
+			)
+			(property
+				(name "FAB")
 				(value "")
 			)
 			(property
@@ -2795,6 +3026,9 @@
 					(name "KLC_S4.1")
 				)
 				(field
+					(name "FAB")
+				)
+				(field
 					(name "Footprint") "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal")
 				(field
 					(name "Datasheet")
@@ -2821,6 +3055,10 @@
 			)
 			(property
 				(name "KLC_S4.1")
+				(value "")
+			)
+			(property
+				(name "FAB")
 				(value "")
 			)
 			(property
@@ -2875,6 +3113,9 @@
 					(name "KLC_S4.1")
 				)
 				(field
+					(name "FAB")
+				)
+				(field
 					(name "Footprint") "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD")
 				(field
 					(name "Datasheet")
@@ -2901,6 +3142,10 @@
 			)
 			(property
 				(name "KLC_S4.1")
+				(value "")
+			)
+			(property
+				(name "FAB")
 				(value "")
 			)
 			(property
@@ -2982,6 +3227,9 @@
 					(name "KLC_S4.1")
 				)
 				(field
+					(name "FAB")
+				)
+				(field
 					(name "Footprint") "Connector_Molex:Molex_PicoBlade_53048-0410_1x04_P1.25mm_Horizontal")
 				(field
 					(name "Datasheet")
@@ -3012,6 +3260,10 @@
 			)
 			(property
 				(name "KLC_S4.1")
+				(value "")
+			)
+			(property
+				(name "FAB")
 				(value "")
 			)
 			(property
@@ -3072,6 +3324,9 @@
 					(name "KLC_S4.1")
 				)
 				(field
+					(name "FAB")
+				)
+				(field
 					(name "Footprint") "Connector_Molex:Molex_PicoBlade_53048-0410_1x04_P1.25mm_Horizontal")
 				(field
 					(name "Datasheet")
@@ -3098,6 +3353,10 @@
 			)
 			(property
 				(name "KLC_S4.1")
+				(value "")
+			)
+			(property
+				(name "FAB")
 				(value "")
 			)
 			(property
@@ -3159,6 +3418,9 @@
 					(name "KLC_S4.1")
 				)
 				(field
+					(name "FAB")
+				)
+				(field
 					(name "Footprint") "M_Design_Lib:101181930001LF")
 				(field
 					(name "Datasheet") "https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/inputoutput/io_usb_micro.pdf")
@@ -3184,6 +3446,10 @@
 			)
 			(property
 				(name "KLC_S4.1")
+				(value "")
+			)
+			(property
+				(name "FAB")
 				(value "")
 			)
 			(property
@@ -3253,6 +3519,9 @@
 					(name "KLC_S4.1")
 				)
 				(field
+					(name "FAB")
+				)
+				(field
 					(name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
 				(field
 					(name "Datasheet") "UART Analyzer")
@@ -3283,6 +3552,10 @@
 			)
 			(property
 				(name "KLC_S4.1")
+				(value "")
+			)
+			(property
+				(name "FAB")
 				(value "")
 			)
 			(property
@@ -3346,6 +3619,9 @@
 					(name "KLC_S4.1")
 				)
 				(field
+					(name "FAB")
+				)
+				(field
 					(name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
 				(field
 					(name "Datasheet") "I2C Analyzer")
@@ -3376,6 +3652,10 @@
 			)
 			(property
 				(name "KLC_S4.1")
+				(value "")
+			)
+			(property
+				(name "FAB")
 				(value "")
 			)
 			(property
@@ -3436,6 +3716,9 @@
 					(name "KLC_S4.1")
 				)
 				(field
+					(name "FAB")
+				)
+				(field
 					(name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
 				(field
 					(name "Datasheet")
@@ -3462,6 +3745,10 @@
 			)
 			(property
 				(name "KLC_S4.1")
+				(value "")
+			)
+			(property
+				(name "FAB")
 				(value "")
 			)
 			(property
@@ -3516,6 +3803,9 @@
 					(name "KLC_S4.1")
 				)
 				(field
+					(name "FAB")
+				)
+				(field
 					(name "Footprint") "Inductor_SMD:L_Sunlord_MWSA0518S")
 				(field
 					(name "Datasheet")
@@ -3542,6 +3832,10 @@
 			)
 			(property
 				(name "KLC_S4.1")
+				(value "")
+			)
+			(property
+				(name "FAB")
 				(value "")
 			)
 			(property
@@ -3601,6 +3895,9 @@
 				(field
 					(name "#MFR") "UHD111A-FKA-C3K23E1L3VG5ZB3Z3")
 				(field
+					(name "FAB")
+				)
+				(field
 					(name "Footprint") "M_Design_Lib:UHD111AFKAC3K23E1L3VG5ZB3Z3")
 				(field
 					(name "Datasheet") "https://downloads.cree-led.com/files/ds/h/HB-UHD111A-FKA.pdf")
@@ -3639,6 +3936,10 @@
 			(property
 				(name "#MFR")
 				(value "UHD111A-FKA-C3K23E1L3VG5ZB3Z3")
+			)
+			(property
+				(name "FAB")
+				(value "")
 			)
 			(property
 				(name "Sheetname")
@@ -3695,6 +3996,9 @@
 					(name "KLC_S4.1")
 				)
 				(field
+					(name "FAB")
+				)
+				(field
 					(name "Footprint") "Package_TO_SOT_SMD:SOT-23")
 				(field
 					(name "Datasheet") "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf")
@@ -3720,6 +4024,10 @@
 			)
 			(property
 				(name "KLC_S4.1")
+				(value "")
+			)
+			(property
+				(name "FAB")
 				(value "")
 			)
 			(property
@@ -3777,6 +4085,9 @@
 					(name "KLC_S4.1")
 				)
 				(field
+					(name "FAB")
+				)
+				(field
 					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
@@ -3803,6 +4114,10 @@
 			)
 			(property
 				(name "KLC_S4.1")
+				(value "")
+			)
+			(property
+				(name "FAB")
 				(value "")
 			)
 			(property
@@ -3857,6 +4172,9 @@
 					(name "KLC_S4.1")
 				)
 				(field
+					(name "FAB")
+				)
+				(field
 					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
@@ -3883,6 +4201,10 @@
 			)
 			(property
 				(name "KLC_S4.1")
+				(value "")
+			)
+			(property
+				(name "FAB")
 				(value "")
 			)
 			(property
@@ -3937,6 +4259,9 @@
 					(name "KLC_S4.1")
 				)
 				(field
+					(name "FAB")
+				)
+				(field
 					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
@@ -3963,6 +4288,10 @@
 			)
 			(property
 				(name "KLC_S4.1")
+				(value "")
+			)
+			(property
+				(name "FAB")
 				(value "")
 			)
 			(property
@@ -4017,6 +4346,9 @@
 					(name "KLC_S4.1")
 				)
 				(field
+					(name "FAB")
+				)
+				(field
 					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
@@ -4043,6 +4375,10 @@
 			)
 			(property
 				(name "KLC_S4.1")
+				(value "")
+			)
+			(property
+				(name "FAB")
 				(value "")
 			)
 			(property
@@ -4097,6 +4433,9 @@
 					(name "KLC_S4.1")
 				)
 				(field
+					(name "FAB")
+				)
+				(field
 					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
@@ -4123,6 +4462,10 @@
 			)
 			(property
 				(name "KLC_S4.1")
+				(value "")
+			)
+			(property
+				(name "FAB")
 				(value "")
 			)
 			(property
@@ -4177,6 +4520,9 @@
 					(name "KLC_S4.1")
 				)
 				(field
+					(name "FAB")
+				)
+				(field
 					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
@@ -4203,6 +4549,10 @@
 			)
 			(property
 				(name "KLC_S4.1")
+				(value "")
+			)
+			(property
+				(name "FAB")
 				(value "")
 			)
 			(property
@@ -4257,6 +4607,9 @@
 					(name "KLC_S4.1")
 				)
 				(field
+					(name "FAB")
+				)
+				(field
 					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
@@ -4283,6 +4636,10 @@
 			)
 			(property
 				(name "KLC_S4.1")
+				(value "")
+			)
+			(property
+				(name "FAB")
 				(value "")
 			)
 			(property
@@ -4337,6 +4694,9 @@
 					(name "KLC_S4.1")
 				)
 				(field
+					(name "FAB")
+				)
+				(field
 					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
@@ -4363,6 +4723,10 @@
 			)
 			(property
 				(name "KLC_S4.1")
+				(value "")
+			)
+			(property
+				(name "FAB")
 				(value "")
 			)
 			(property
@@ -4417,6 +4781,9 @@
 					(name "KLC_S4.1")
 				)
 				(field
+					(name "FAB")
+				)
+				(field
 					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
@@ -4443,6 +4810,10 @@
 			)
 			(property
 				(name "KLC_S4.1")
+				(value "")
+			)
+			(property
+				(name "FAB")
 				(value "")
 			)
 			(property
@@ -4497,6 +4868,9 @@
 					(name "KLC_S4.1")
 				)
 				(field
+					(name "FAB")
+				)
+				(field
 					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
@@ -4523,6 +4897,10 @@
 			)
 			(property
 				(name "KLC_S4.1")
+				(value "")
+			)
+			(property
+				(name "FAB")
 				(value "")
 			)
 			(property
@@ -4579,6 +4957,9 @@
 					(name "KLC_S4.1")
 				)
 				(field
+					(name "FAB")
+				)
+				(field
 					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
@@ -4609,6 +4990,10 @@
 			)
 			(property
 				(name "KLC_S4.1")
+				(value "")
+			)
+			(property
+				(name "FAB")
 				(value "")
 			)
 			(property
@@ -4663,6 +5048,9 @@
 					(name "KLC_S4.1")
 				)
 				(field
+					(name "FAB")
+				)
+				(field
 					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
@@ -4689,6 +5077,10 @@
 			)
 			(property
 				(name "KLC_S4.1")
+				(value "")
+			)
+			(property
+				(name "FAB")
 				(value "")
 			)
 			(property
@@ -4743,6 +5135,9 @@
 					(name "KLC_S4.1")
 				)
 				(field
+					(name "FAB")
+				)
+				(field
 					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
@@ -4769,6 +5164,10 @@
 			)
 			(property
 				(name "KLC_S4.1")
+				(value "")
+			)
+			(property
+				(name "FAB")
 				(value "")
 			)
 			(property
@@ -4823,6 +5222,9 @@
 					(name "KLC_S4.1")
 				)
 				(field
+					(name "FAB")
+				)
+				(field
 					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
@@ -4849,6 +5251,10 @@
 			)
 			(property
 				(name "KLC_S4.1")
+				(value "")
+			)
+			(property
+				(name "FAB")
 				(value "")
 			)
 			(property
@@ -4903,6 +5309,9 @@
 					(name "KLC_S4.1")
 				)
 				(field
+					(name "FAB")
+				)
+				(field
 					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
@@ -4929,6 +5338,10 @@
 			)
 			(property
 				(name "KLC_S4.1")
+				(value "")
+			)
+			(property
+				(name "FAB")
 				(value "")
 			)
 			(property
@@ -4983,6 +5396,9 @@
 					(name "KLC_S4.1")
 				)
 				(field
+					(name "FAB")
+				)
+				(field
 					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
@@ -5009,6 +5425,10 @@
 			)
 			(property
 				(name "KLC_S4.1")
+				(value "")
+			)
+			(property
+				(name "FAB")
 				(value "")
 			)
 			(property
@@ -5063,6 +5483,9 @@
 					(name "KLC_S4.1")
 				)
 				(field
+					(name "FAB")
+				)
+				(field
 					(name "Footprint") "Button_Switch_SMD:SW_SPDT_PCM12")
 				(field
 					(name "Datasheet")
@@ -5089,6 +5512,10 @@
 			)
 			(property
 				(name "KLC_S4.1")
+				(value "")
+			)
+			(property
+				(name "FAB")
 				(value "")
 			)
 			(property
@@ -5142,6 +5569,9 @@
 					(name "KLC_S4.1")
 				)
 				(field
+					(name "FAB")
+				)
+				(field
 					(name "Footprint") "Button_Switch_THT:SW_PUSH_6mm_H5mm")
 				(field
 					(name "Datasheet")
@@ -5168,6 +5598,10 @@
 			)
 			(property
 				(name "KLC_S4.1")
+				(value "")
+			)
+			(property
+				(name "FAB")
 				(value "")
 			)
 			(property
@@ -5220,6 +5654,9 @@
 					(name "KLC_S4.1")
 				)
 				(field
+					(name "FAB")
+				)
+				(field
 					(name "Footprint") "TestPoint:TestPoint_Pad_D1.5mm")
 				(field
 					(name "Datasheet")
@@ -5246,6 +5683,10 @@
 			)
 			(property
 				(name "KLC_S4.1")
+				(value "")
+			)
+			(property
+				(name "FAB")
 				(value "")
 			)
 			(property
@@ -5299,6 +5740,9 @@
 					(name "KLC_S4.1")
 				)
 				(field
+					(name "FAB")
+				)
+				(field
 					(name "Footprint") "TestPoint:TestPoint_Pad_D1.5mm")
 				(field
 					(name "Datasheet")
@@ -5325,6 +5769,10 @@
 			)
 			(property
 				(name "KLC_S4.1")
+				(value "")
+			)
+			(property
+				(name "FAB")
 				(value "")
 			)
 			(property
@@ -5378,6 +5826,9 @@
 					(name "KLC_S4.1")
 				)
 				(field
+					(name "FAB")
+				)
+				(field
 					(name "Footprint") "TestPoint:TestPoint_Pad_D1.5mm")
 				(field
 					(name "Datasheet")
@@ -5404,6 +5855,10 @@
 			)
 			(property
 				(name "KLC_S4.1")
+				(value "")
+			)
+			(property
+				(name "FAB")
 				(value "")
 			)
 			(property
@@ -5457,6 +5912,9 @@
 					(name "KLC_S4.1")
 				)
 				(field
+					(name "FAB")
+				)
+				(field
 					(name "Footprint") "TestPoint:TestPoint_Pad_D1.5mm")
 				(field
 					(name "Datasheet")
@@ -5483,6 +5941,10 @@
 			)
 			(property
 				(name "KLC_S4.1")
+				(value "")
+			)
+			(property
+				(name "FAB")
 				(value "")
 			)
 			(property
@@ -5535,6 +5997,9 @@
 					(name "KLC_S4.1")
 				)
 				(field
+					(name "FAB")
+				)
+				(field
 					(name "Footprint") "Package_QFP:LQFP-64_10x10mm_P0.5mm")
 				(field
 					(name "Datasheet") "https://www.st.com/resource/en/datasheet/stm32f405rg.pdf")
@@ -5560,6 +6025,10 @@
 			)
 			(property
 				(name "KLC_S4.1")
+				(value "")
+			)
+			(property
+				(name "FAB")
 				(value "")
 			)
 			(property
@@ -5803,6 +6272,9 @@
 					(name "KLC_S4.1")
 				)
 				(field
+					(name "FAB")
+				)
+				(field
 					(name "Footprint") "Package_TO_SOT_SMD:SOT-23-6")
 				(field
 					(name "Datasheet") "https://www.st.com/resource/en/datasheet/usblc6-2.pdf")
@@ -5832,6 +6304,10 @@
 			)
 			(property
 				(name "KLC_S4.1")
+				(value "")
+			)
+			(property
+				(name "FAB")
 				(value "")
 			)
 			(property
@@ -5893,6 +6369,9 @@
 				(field
 					(name "#MFR") "Q 16,0-JXS32-12-10/15-T1-WA-LF")
 				(field
+					(name "FAB")
+				)
+				(field
 					(name "Footprint") "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm")
 				(field
 					(name "Datasheet") "https://www.jauch.com/downloadfile/58873435e6bc8_72dbfa5fcce39ec7db14/jxs32wa_190403_online.pdf")
@@ -5911,6 +6390,10 @@
 			(property
 				(name "#MFR")
 				(value "Q 16,0-JXS32-12-10/15-T1-WA-LF")
+			)
+			(property
+				(name "FAB")
+				(value "")
 			)
 			(property
 				(name "Sheetname")
@@ -5981,6 +6464,9 @@
 					(name "KLC_S4.1")
 				)
 				(field
+					(name "FAB")
+				)
+				(field
 					(name "Footprint") "M_Design_Lib:SOD2512X110N")
 				(field
 					(name "Datasheet") "https://assets.nexperia.com/documents/data-sheet/BZX384_SER.pdf")
@@ -6026,6 +6512,10 @@
 			)
 			(property
 				(name "KLC_S4.1")
+				(value "")
+			)
+			(property
+				(name "FAB")
 				(value "")
 			)
 			(property
@@ -7422,6 +7912,10 @@
 			(uri "${KICAD10_SYMBOL_DIR}/Device.kicad_sym")
 		)
 		(library
+			(logical "DownloadedLib")
+			(uri "${KIPRJMOD}/Library/Symbol Libraries")
+		)
+		(library
 			(logical "MCU_ST_STM32F4")
 			(uri "${KICAD10_SYMBOL_DIR}/MCU_ST_STM32F4.kicad_sym")
 		)
@@ -7932,6 +8426,18 @@
 				(pinfunction "GND_2")
 				(pintype "passive")
 			)
+			(node
+				(ref "Y1")
+				(pin "2")
+				(pinfunction "G_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "Y1")
+				(pin "4")
+				(pinfunction "G_4")
+				(pintype "passive")
+			)
 		)
 		(net
 			(code "7")
@@ -8437,23 +8943,6 @@
 		)
 		(net
 			(code "32")
-			(name "Net-(Y1-G-Pad2)")
-			(class "Default")
-			(node
-				(ref "Y1")
-				(pin "2")
-				(pinfunction "G_2")
-				(pintype "passive")
-			)
-			(node
-				(ref "Y1")
-				(pin "4")
-				(pinfunction "G_4")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "33")
 			(name "RGB5_TP")
 			(class "Default")
 			(node
@@ -8469,7 +8958,7 @@
 			)
 		)
 		(net
-			(code "34")
+			(code "33")
 			(name "RGB6_TP")
 			(class "Default")
 			(node
@@ -8485,7 +8974,7 @@
 			)
 		)
 		(net
-			(code "35")
+			(code "34")
 			(name "RGB7_TP")
 			(class "Default")
 			(node
@@ -8501,7 +8990,7 @@
 			)
 		)
 		(net
-			(code "36")
+			(code "35")
 			(name "SWCLK")
 			(class "Default")
 			(node
@@ -8518,7 +9007,7 @@
 			)
 		)
 		(net
-			(code "37")
+			(code "36")
 			(name "SWDIO")
 			(class "Default")
 			(node
@@ -8535,7 +9024,7 @@
 			)
 		)
 		(net
-			(code "38")
+			(code "37")
 			(name "SWO")
 			(class "Default")
 			(node
@@ -8552,7 +9041,7 @@
 			)
 		)
 		(net
-			(code "39")
+			(code "38")
 			(name "UART3_RX")
 			(class "Default")
 			(node
@@ -8575,7 +9064,7 @@
 			)
 		)
 		(net
-			(code "40")
+			(code "39")
 			(name "UART3_TX")
 			(class "Default")
 			(node
@@ -8598,7 +9087,7 @@
 			)
 		)
 		(net
-			(code "41")
+			(code "40")
 			(name "USB_CONN_D+")
 			(class "Default")
 			(node
@@ -8615,7 +9104,7 @@
 			)
 		)
 		(net
-			(code "42")
+			(code "41")
 			(name "USB_CONN_D-")
 			(class "Default")
 			(node
@@ -8632,7 +9121,7 @@
 			)
 		)
 		(net
-			(code "43")
+			(code "42")
 			(name "USB_D+")
 			(class "Default")
 			(node
@@ -8649,7 +9138,7 @@
 			)
 		)
 		(net
-			(code "44")
+			(code "43")
 			(name "USB_D-")
 			(class "Default")
 			(node
@@ -8666,7 +9155,7 @@
 			)
 		)
 		(net
-			(code "45")
+			(code "44")
 			(name "unconnected-(J2-Pin_7-Pad7)")
 			(class "Default")
 			(node
@@ -8677,7 +9166,7 @@
 			)
 		)
 		(net
-			(code "46")
+			(code "45")
 			(name "unconnected-(J2-Pin_8-Pad8)")
 			(class "Default")
 			(node
@@ -8688,7 +9177,7 @@
 			)
 		)
 		(net
-			(code "47")
+			(code "46")
 			(name "unconnected-(J2-Pin_10-Pad10)")
 			(class "Default")
 			(node
@@ -8699,7 +9188,7 @@
 			)
 		)
 		(net
-			(code "48")
+			(code "47")
 			(name "unconnected-(J5-ID-Pad4)")
 			(class "Default")
 			(node
@@ -8710,7 +9199,7 @@
 			)
 		)
 		(net
-			(code "49")
+			(code "48")
 			(name "unconnected-(J5-Shield-PadSH)")
 			(class "Default")
 			(node
@@ -8721,7 +9210,7 @@
 			)
 		)
 		(net
-			(code "50")
+			(code "49")
 			(name "unconnected-(J6-Pin_4-Pad4)")
 			(class "Default")
 			(node
@@ -8732,7 +9221,7 @@
 			)
 		)
 		(net
-			(code "51")
+			(code "50")
 			(name "unconnected-(J7-Pin_4-Pad4)")
 			(class "Default")
 			(node
@@ -8743,7 +9232,7 @@
 			)
 		)
 		(net
-			(code "52")
+			(code "51")
 			(name "unconnected-(U1-PA0-Pad14)")
 			(class "Default")
 			(node
@@ -8754,7 +9243,7 @@
 			)
 		)
 		(net
-			(code "53")
+			(code "52")
 			(name "unconnected-(U1-PA1-Pad15)")
 			(class "Default")
 			(node
@@ -8765,7 +9254,7 @@
 			)
 		)
 		(net
-			(code "54")
+			(code "53")
 			(name "unconnected-(U1-PA3-Pad17)")
 			(class "Default")
 			(node
@@ -8776,7 +9265,7 @@
 			)
 		)
 		(net
-			(code "55")
+			(code "54")
 			(name "unconnected-(U1-PA8-Pad41)")
 			(class "Default")
 			(node
@@ -8787,7 +9276,7 @@
 			)
 		)
 		(net
-			(code "56")
+			(code "55")
 			(name "unconnected-(U1-PA9-Pad42)")
 			(class "Default")
 			(node
@@ -8798,7 +9287,7 @@
 			)
 		)
 		(net
-			(code "57")
+			(code "56")
 			(name "unconnected-(U1-PA10-Pad43)")
 			(class "Default")
 			(node
@@ -8809,7 +9298,7 @@
 			)
 		)
 		(net
-			(code "58")
+			(code "57")
 			(name "unconnected-(U1-PA15-Pad50)")
 			(class "Default")
 			(node
@@ -8820,7 +9309,7 @@
 			)
 		)
 		(net
-			(code "59")
+			(code "58")
 			(name "unconnected-(U1-PB0-Pad26)")
 			(class "Default")
 			(node
@@ -8831,7 +9320,7 @@
 			)
 		)
 		(net
-			(code "60")
+			(code "59")
 			(name "unconnected-(U1-PB1-Pad27)")
 			(class "Default")
 			(node
@@ -8842,7 +9331,7 @@
 			)
 		)
 		(net
-			(code "61")
+			(code "60")
 			(name "unconnected-(U1-PB2-Pad28)")
 			(class "Default")
 			(node
@@ -8853,7 +9342,7 @@
 			)
 		)
 		(net
-			(code "62")
+			(code "61")
 			(name "unconnected-(U1-PB4-Pad56)")
 			(class "Default")
 			(node
@@ -8864,7 +9353,7 @@
 			)
 		)
 		(net
-			(code "63")
+			(code "62")
 			(name "unconnected-(U1-PB5-Pad57)")
 			(class "Default")
 			(node
@@ -8875,7 +9364,7 @@
 			)
 		)
 		(net
-			(code "64")
+			(code "63")
 			(name "unconnected-(U1-PB8-Pad61)")
 			(class "Default")
 			(node
@@ -8886,7 +9375,7 @@
 			)
 		)
 		(net
-			(code "65")
+			(code "64")
 			(name "unconnected-(U1-PB9-Pad62)")
 			(class "Default")
 			(node
@@ -8897,7 +9386,7 @@
 			)
 		)
 		(net
-			(code "66")
+			(code "65")
 			(name "unconnected-(U1-PB12-Pad33)")
 			(class "Default")
 			(node
@@ -8908,7 +9397,7 @@
 			)
 		)
 		(net
-			(code "67")
+			(code "66")
 			(name "unconnected-(U1-PB13-Pad34)")
 			(class "Default")
 			(node
@@ -8919,7 +9408,7 @@
 			)
 		)
 		(net
-			(code "68")
+			(code "67")
 			(name "unconnected-(U1-PB14-Pad35)")
 			(class "Default")
 			(node
@@ -8930,7 +9419,7 @@
 			)
 		)
 		(net
-			(code "69")
+			(code "68")
 			(name "unconnected-(U1-PB15-Pad36)")
 			(class "Default")
 			(node
@@ -8941,7 +9430,7 @@
 			)
 		)
 		(net
-			(code "70")
+			(code "69")
 			(name "unconnected-(U1-PC0-Pad8)")
 			(class "Default")
 			(node
@@ -8952,7 +9441,7 @@
 			)
 		)
 		(net
-			(code "71")
+			(code "70")
 			(name "unconnected-(U1-PC1-Pad9)")
 			(class "Default")
 			(node
@@ -8963,7 +9452,7 @@
 			)
 		)
 		(net
-			(code "72")
+			(code "71")
 			(name "unconnected-(U1-PC2-Pad10)")
 			(class "Default")
 			(node
@@ -8974,7 +9463,7 @@
 			)
 		)
 		(net
-			(code "73")
+			(code "72")
 			(name "unconnected-(U1-PC3-Pad11)")
 			(class "Default")
 			(node
@@ -8985,7 +9474,7 @@
 			)
 		)
 		(net
-			(code "74")
+			(code "73")
 			(name "unconnected-(U1-PC4-Pad24)")
 			(class "Default")
 			(node
@@ -8996,7 +9485,7 @@
 			)
 		)
 		(net
-			(code "75")
+			(code "74")
 			(name "unconnected-(U1-PC5-Pad25)")
 			(class "Default")
 			(node
@@ -9007,7 +9496,7 @@
 			)
 		)
 		(net
-			(code "76")
+			(code "75")
 			(name "unconnected-(U1-PC6-Pad37)")
 			(class "Default")
 			(node
@@ -9018,7 +9507,7 @@
 			)
 		)
 		(net
-			(code "77")
+			(code "76")
 			(name "unconnected-(U1-PC7-Pad38)")
 			(class "Default")
 			(node
@@ -9029,7 +9518,7 @@
 			)
 		)
 		(net
-			(code "78")
+			(code "77")
 			(name "unconnected-(U1-PC8-Pad39)")
 			(class "Default")
 			(node
@@ -9040,7 +9529,7 @@
 			)
 		)
 		(net
-			(code "79")
+			(code "78")
 			(name "unconnected-(U1-PC9-Pad40)")
 			(class "Default")
 			(node
@@ -9051,7 +9540,7 @@
 			)
 		)
 		(net
-			(code "80")
+			(code "79")
 			(name "unconnected-(U1-PC10-Pad51)")
 			(class "Default")
 			(node
@@ -9062,7 +9551,7 @@
 			)
 		)
 		(net
-			(code "81")
+			(code "80")
 			(name "unconnected-(U1-PC11-Pad52)")
 			(class "Default")
 			(node
@@ -9073,7 +9562,7 @@
 			)
 		)
 		(net
-			(code "82")
+			(code "81")
 			(name "unconnected-(U1-PC12-Pad53)")
 			(class "Default")
 			(node
@@ -9084,7 +9573,7 @@
 			)
 		)
 		(net
-			(code "83")
+			(code "82")
 			(name "unconnected-(U1-PC13-Pad2)")
 			(class "Default")
 			(node
@@ -9095,7 +9584,7 @@
 			)
 		)
 		(net
-			(code "84")
+			(code "83")
 			(name "unconnected-(U1-PC14-Pad3)")
 			(class "Default")
 			(node
@@ -9106,7 +9595,7 @@
 			)
 		)
 		(net
-			(code "85")
+			(code "84")
 			(name "unconnected-(U1-PC15-Pad4)")
 			(class "Default")
 			(node
@@ -9117,7 +9606,7 @@
 			)
 		)
 		(net
-			(code "86")
+			(code "85")
 			(name "unconnected-(U1-PD2-Pad54)")
 			(class "Default")
 			(node

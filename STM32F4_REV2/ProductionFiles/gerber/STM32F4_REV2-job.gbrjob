@@ -5,17 +5,17 @@
       "Application": "Pcbnew",
       "Version": "10.0.6"
     },
-    "CreationDate": "2026-09-30T17:50:58+03:00"
+    "CreationDate": "2026-10-11T12:38:20+03:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "STM32F4_REV2",
       "GUID": "53544d33-3246-4345-9f52-4556322e6b69",
-      "Revision": "vSETP 2026"
+      "Revision": "v1.0"
     },
     "Size": {
-      "X": 49.3,
-      "Y": 47.8
+      "X": 50.85,
+      "Y": 50.75
     },
     "LayerNumber": 4,
     "BoardThickness": 1.6,
@@ -27,15 +27,15 @@
       "PadToPad": 0.2,
       "PadToTrack": 0.2,
       "TrackToTrack": 0.2,
-      "MinLineWidth": 0.254
+      "MinLineWidth": 0.2
     },
     {
       "Layers": "Inner",
       "PadToPad": 0.2,
       "PadToTrack": 0.2,
       "TrackToTrack": 0.2,
-      "TrackToRegion": 0.5,
-      "RegionToRegion": 0.5
+      "TrackToRegion": 0.254,
+      "RegionToRegion": 0.254
     }
   ],
   "FilesAttributes": [
@@ -57,16 +57,6 @@
     {
       "Path": "STM32F4_REV2-B_Cu.gbr",
       "FileFunction": "Copper,L4,Bot",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "STM32F4_REV2-F_Paste.gbr",
-      "FileFunction": "SolderPaste,Top",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "STM32F4_REV2-B_Paste.gbr",
-      "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {

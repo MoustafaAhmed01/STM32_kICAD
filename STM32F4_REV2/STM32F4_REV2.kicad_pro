@@ -561,7 +561,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "STM32F4_REV2.net",
-      "plot": "gerber/",
+      "plot": "ProductionFiles/gerber/",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
